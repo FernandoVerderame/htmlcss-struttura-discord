@@ -13,7 +13,7 @@ header {
 }
 
 
-
+/* Header */
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -57,3 +57,60 @@ header {
 }
 
 
+/* Main */
+.white-main {
+    background-color: #FFFFFF;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-main {
+    background-color: #D3D3D3;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.triple-block {
+    width: 1200px;
+    display: flex;
+}
+
+.blue-box {
+    flex-basis: 60%;
+    min-height: 500px;
+    background-color: #1E90FF;
+    border: 2px dashed black;
+    display: flex;
+}
+    
+.pink-box {
+    flex-basis: 40%;
+    min-height: 500px;
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+    display: flex;
+}
+  
+
+.grey-main-2 {
+    background-color: #D3D3D3;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.green-block {
+    flex-basis: 1200px;
+    min-height: 900px;
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    display: flex;
+    align-self: center;
+}
