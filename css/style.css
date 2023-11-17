@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-/* Generics */
-header {
+
+.block-header {
     min-height: 80px;
     background-color: #ADD8E6;
     padding: 20px;
@@ -89,7 +89,7 @@ header {
     display: flex;
 }
     
-.pink-box {
+.lightpink-box {
     flex-basis: 40%;
     min-height: 500px;
     background-color: #FFC0CB;
@@ -113,4 +113,75 @@ header {
     border: 2px dashed black;
     display: flex;
     align-self: center;
+}
+
+
+/* Footer */
+.five-block{
+    width: 1200px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.black-block-1 {
+    background-color: #23272A;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-block {
+    flex-basis: 40%;
+    min-height: 500px;
+    background-color: #F08080;
+    border: 2px dashed black;
+    display: flex;
+}
+
+.lightgreen-block {
+    flex-basis: 15%;
+    min-height: 500px;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+    display: flex;
+}
+
+
+.grey-line {
+    border: 1px solid #D3D3D3;
+}
+
+.black-block-2 {
+    background-color: #23272A;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-block{
+    min-height: 70px;
+    background-color: #7FFFD4;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-block {
+    background-color: #FFB6C1;
+    min-height: 30px;
+    width: 60px;
+    display: flex;
+}
+
+.button-block {
+    background-color: #FFB6C1;
+    min-height: 30px;
+    width: 60px;
+    display: flex;
 }
